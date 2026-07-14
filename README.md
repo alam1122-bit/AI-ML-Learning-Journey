@@ -21,6 +21,11 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 - **Exercise 1 Result:** Scored **6/7 correct** on the first try! Understood that traditional software like spreadsheets do not qualify as AI because they lack autonomy and adaptivity.
 - **Time Spent:** ~45 mins
 
-  
-
+### 🗓️ Day 2: July 14, 2026 (Night)
+- **Exercise 2 Result (Taxonomy of AI):** Scored **5/5 correct**! Mastered the Euler diagram relations: CS > AI > ML > DL, and how Data Science acts as an overlapping umbrella bridging CS, AI, and Statistics.
+- **Exercise 3 Result (AI Applications Case Study):** Scored **3/5 correct**. Analyzed real-world use cases to distinguish when to apply AI/ML vs. classical methods:
+  - *Autonomous Cars, Chatbots, and Ad Optimization* heavily rely on **Machine Learning and Statistics**.
+  - *Rocket Steering* is strictly a **Robotics** domain governed by deterministic physics laws rather than ML trial-and-error.
+  - *Gallup Results Summarization* falls under pure **Classical Statistics** rather than adaptive AI solutions.
+- **Time Spent:** ~40 mins
 ---
