@@ -22,6 +22,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 - **Time Spent:** ~45 mins
 
 ### 🗓️ Day 2: July 14, 2026 (Night)
+- - **Topic Covered:** Chapter 1, Section 2 - Related Fields
 - **Exercise 2 Result (Taxonomy of AI):** Scored **5/5 correct**! Mastered the Euler diagram relations: CS > AI > ML > DL, and how Data Science acts as an overlapping umbrella bridging CS, AI, and Statistics.
 - **Exercise 3 Result (AI Applications Case Study):** Scored **3/5 correct**. Analyzed real-world use cases to distinguish when to apply AI/ML vs. classical methods:
   - *Autonomous Cars, Chatbots, and Ad Optimization* heavily rely on **Machine Learning and Statistics**.
@@ -30,12 +31,12 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 - **Time Spent:** ~40 mins
 
 ### 🗓️ Day 3: July 15, 2026 (Night)
-- **Topic Covered:** Chapter 1, Section 2 - Philosophy of AI
+- **Topic Covered:** Chapter 1, Section 3 - Philosophy of AI
 - **Key Takeaways:** 
   - **Philosophy of AI:** Explored the fundamental question of whether intelligent behavior requires a conscious "mind" or if consciousness can be replicated purely through computation.
   - **The Turing Test:** Proposed by Alan Turing ("father of computer science"). It states that if a computer behaves indistinguishably from a human in natural language chat, it exhibits human-level intelligence ("intelligent is as intelligent says").
   - **Limitation of Turing Test:** It often measures human-like behavior (jokes, evasion, typos) rather than actual intelligence (e.g., the Eugene Goostman chatbot simulation).
-  - **The Chinese Room Argument (John Searle):** A powerful counter-argument to the Turing Test. It suggests that executing mechanical, automated rules (like translating symbols using a manual) does not equal actual "understanding" or "consciousness." A self-driving car safe-driving actions are automated, but it does not "understand" its environment in a human-like way.
+  - **The Chinese Room Argument (John Searle):** A powerful counter-argument to the Turing Test. It suggests that executing mechanical, automated rules (like translating symbols using a manual) does not equal actual "understanding" or "consciousness." A self-driving car's safe-driving actions are automated, but it does not "understand" its environment in a human-like way.
   - **Key Terminology:**
     - **General vs. Narrow AI:** *Narrow AI* handles specific, single tasks (what we have today in leaps and bounds). *General AI (AGI)* refers to a machine capable of any intellectual task (still science fiction).
     - **Strong vs. Weak AI:** *Strong AI* is a genuinely intelligent, self-conscious mind. *Weak AI* consists of systems that merely exhibit intelligent behaviors despite being "mere" computers (what exists today).
