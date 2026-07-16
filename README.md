@@ -42,6 +42,24 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     - **Strong vs. Weak AI:** *Strong AI* is a genuinely intelligent, self-conscious mind. *Weak AI* consists of systems that merely exhibit intelligent behaviors despite being "mere" computers (what exists today).
 - **Time Spent:** ~35 mins
 
+### 🗓️ Day 4: July 16, 2026 (Night)
+**Topic Covered:** Chapter 2, Section 1 - Search and problem solving
+
+- **Key Takeaways:**
+
+ - **Problem Formulation:** Learned how real-world navigation and decision-making scenarios are mathematically structured as search problems by defining alternative choices and their consequences.
+
+- **Core Elements of Search:** Mastered the three foundational components of graph-based problem solving:
+
+- **State Space:** The full set of all valid and allowed situations within a problem's constraints.
+
+- **Transitions:** Direct valid movements from one state to another (a sequence of which forms a path).
+
+- **Costs:**The algorithmic weight (time, distance, or resource expenditure) assigned to transitions to determine the most optimal path.
+
+- **Constraint Handling:** Explored how AI systems eliminate forbidden states (such as resource conflicts or logical contradictions) to systematically compute the shortest path from an initial state to a goal state.
+
+- **Time Spent:** ~35 mins
 ---
 
 
