@@ -55,11 +55,12 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 - **Transitions:** Direct valid movements from one state to another (a sequence of which forms a path).
 
-- **Costs:**The algorithmic weight (time, distance, or resource expenditure) assigned to transitions to determine the most optimal path.
+- **Costs:** The algorithmic weight (time, distance, or resource expenditure) assigned to transitions to determine the most optimal path.
 
 - **Constraint Handling:** Explored how AI systems eliminate forbidden states (such as resource conflicts or logical contradictions) to systematically compute the shortest path from an initial state to a goal state.
 
 - **Time Spent:** ~35 mins
+
 ---
 
 
