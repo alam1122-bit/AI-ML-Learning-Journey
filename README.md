@@ -61,6 +61,15 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 - **Time Spent:** ~35 mins
 
+### 🗓️ Day 5: July 17, 2026
+- **Topic Covered:** Chapter 2, Section 2 - Solving problems with AI
+- **Key Takeaways:** 
+  - **Foundations of Automation (Alan Turing):** Explored how AI's roots are intertwined with the birth of computer science. Learned that Alan Turing's fundamental insight—anything that can be computed using numbers or symbols can be automated—laid the groundwork for the field. His theoretical model, the *Turing machine*, directly led to the invention of programmable, multi-task computers, which were famously utilized to crack German secret codes during World War II.
+  - **Coining of "Artificial Intelligence" (John McCarthy):** Studied how John McCarthy (the Father of AI) officially coined and established the term "Artificial Intelligence" during the historic Dartmouth conference in 1956. 
+  - **The Core AI Conjecture:** Evaluated McCarthy’s foundational hypothesis: *"every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it."* This means complex intelligence can be broken down into small, mechanical, programmable steps—a concept that bypasses philosophical objections like Searle's Chinese Room by asserting that mechanical execution of a program still constitutes intelligence.
+  - **Rise of Search and Games in AI:** Understood why board games (like checkers, chess, and Go) became the primary testing grounds for early AI algorithms in the 1950s—they provided restricted, easily formalized domains. This focus drove massive advancements in *search and planning techniques* during the 1960s, giving birth to foundational algorithms like **Minimax** and **Alpha-Beta Pruning**, which remain core architectures for game-playing AI today.
+- **Time Spent:** ~30 mins
+
 ---
 
 
