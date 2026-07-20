@@ -70,6 +70,15 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
   - **Rise of Search and Games in AI:** Understood why board games (like checkers, chess, and Go) became the primary testing grounds for early AI algorithms in the 1950s—they provided restricted, easily formalized domains. This focus drove massive advancements in *search and planning techniques* during the 1960s, giving birth to foundational algorithms like **Minimax** and **Alpha-Beta Pruning**, which remain core architectures for game-playing AI today.
 - **Time Spent:** ~30 mins
 
+### 🗓️ Day 6: July 21, 2026 (Night of July 20, 2026)
+- **Topic Covered:** Chapter 2, Section 3 - Search and games
+- **Key Takeaways:** 
+  - **Game Trees & Minimax:** Alternating layers of `MAX` (aims for $+1$) and `MIN` (aims for $-1$). Optimal moves are determined by backpropagating values up from terminal states.
+  - **Combinatorial Explosion:** Games like Chess ($\text{branching factor} \approx 35$) and Go ($\approx 250$) generate massive trees, making exhaustive search impossible.
+  - **Depth-Limited Heuristics:** Evaluates intermediate board states when terminal nodes can't be reached (e.g., Chess piece scores: Queen = 9, Rook = 5, Pawn = 1).
+  - **Real-World Non-Determinism:** Classical search assumes deterministic rules; real-world AI requires handling uncertainty and randomness (Chapter 3 preview).
+- **Exercise 7 Result (Why so pessimistic, Max?):** Scored **Correct** (Answer: **-1**). Evaluated the defensive sub-game tree and proved that Min forces a guaranteed victory regardless of Max's optimal play.
+- **Time Spent:** ~50 mins
 ---
 
 
