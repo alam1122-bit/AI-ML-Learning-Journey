@@ -79,6 +79,22 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
   - **Real-World Non-Determinism:** Classical search assumes deterministic rules; real-world AI requires handling uncertainty and randomness (Chapter 3 preview).
 - **Exercise 7 Result (Why so pessimistic, Max?):** Scored **Correct** (Answer: **-1**). Evaluated the defensive sub-game tree and proved that Min forces a guaranteed victory regardless of Max's optimal play.
 - **Time Spent:** ~50 mins
+
+### 🗓️ Day 7: July 22, 2026 (Night of July 21, 2026)
+- **Topic Covered:** Chapter 3, Section 1 - Odds and Probability
+- **Key Takeaways:** 
+  - **Handling Real-World Uncertainty:** Classical AI relies on perfect information (like Chess), whereas modern real-world AI (e.g., self-driving cars, medical diagnostics) must deal with incomplete data and sensor "noise" using probability.
+  - **Quantifying Uncertainty:** Instead of complex calculus, the core paradigm shift is treating uncertainty as a measurable number. Probability allows us to objectively quantify and compare real-world risks (e.g., vaccine benefits vs. side effects).
+  - **Odds vs. Probability:**
+    - **Odds ($x:y$):** Expresses the ratio of success events to failure events (e.g., $3:1$ means 3 wins for every 1 loss).
+    - **Natural Frequencies:** Expressed as a fraction $\frac{x}{x+y}$ (e.g., $\frac{3}{4}$).
+    - **Critical Pitfall:** $1:5$ Odds ($\text{Ratio} = 0.2$, Total outcomes = $6$) is NOT equal to $20\%$ Probability ($\frac{1}{5}$, Total outcomes = $5$).
+  - **Odds-to-Probability Conversion Formula:** 
+    $$\text{Probability} = \frac{x}{x + y}$$
+- **Exercise 8 Result (Probabilistic Forecasts):** Scored **3/4 correct**. Learned that a single outcome cannot prove or disprove a probabilistic forecast (e.g., a $10\%$ event happening doesn't mean a $90\%$ forecast was wrong). Only long-run statistical observations can evaluate forecast accuracy.
+- **Exercise 9 Result (Odds):** Scored **6/6 correct (100%)**! Mastered converting odds into fractions and percentages:
+- **Time Spent:** ~50 mins
+
 ---
 
 
