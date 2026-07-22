@@ -111,6 +111,22 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
   - $\text{Prior Odds} = 5:95$, $\text{LR} = \frac{0.80}{0.10} = 8 \implies \text{Posterior Odds} = \mathbf{40:95}$ ($\approx 29.6\%$ probability).
 - **Time Spent:** ~45 mins
 
+### 🗓️ Day 9: July 23, 2026 (Night of July 22, 2026)
+
+- **Topic Covered:** Chapter 3, Section 3 – Naive Bayes Classification
+- **Key Takeaways:** 
+  - **Naive Bayes Classifier:** A machine learning model that uses Bayes rule to classify text into classes (e.g., *Spam* or *Ham*).
+  - **Why "Naive"?:** It assumes words are independent of each other. While grammatically incorrect, this simplification works surprisingly well in practice (*"All models are wrong, but some are useful"*).
+  - **Zero Frequency Problem:** If a word appears zero times in training data, it breaks calculations ($0/0$). Setting a tiny lower bound (e.g., $1/100000$) fixes this.
+  - **Multi-Word Calculation:** Chain likelihood ratios together sequentially:
+    $$\text{Posterior Odds} = \text{Prior Odds} \times \text{LR}_1 \times \text{LR}_2 \times \dots \times \text{LR}_n$$
+- **Exercise 12 Result (One Word Filter):** Scored **100% Correct**.
+  - $\text{Prior} = 1:1, \text{LR} = 5.1 \implies \text{Posterior} = \mathbf{5.1}$ ($\approx 83.6\%$).
+- **Exercise 13 Result (Full Spam Filter):** Scored **100% Correct**.
+  - $1 \times 5.1 \times 0.8 \times 53.2 \times 0.3 = \mathbf{65.1168}$ ($\approx 98.5\%$).
+- **Time Spent:** ~45 mins
+
+
 ---
 
 
