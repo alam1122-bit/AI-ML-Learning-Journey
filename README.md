@@ -95,6 +95,22 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 - **Exercise 9 Result (Odds):** Scored **6/6 correct (100%)**! Mastered converting odds into fractions and percentages:
 - **Time Spent:** ~50 mins
 
+### 🗓️ Day 8: July 22, 2026
+
+- **Topic Covered:** Chapter 3, Section 2 – The Bayes Rule
+- **Key Takeaways:** 
+  - **Updating Beliefs:** The Bayes rule provides an elegant mathematical way to update initial beliefs (Prior Odds) when new evidence (Likelihood Ratio) becomes available to arrive at a final belief (Posterior Odds).
+  - **The Core Formula:** 
+    $$\text{Posterior Odds} = \text{Likelihood Ratio} \times \text{Prior Odds}$$
+  - **Likelihood Ratio (LR):** Measures the strength of new evidence by comparing how much more likely an observation is if the event occurs versus if it does not ($\text{LR} = \frac{P(\text{Observation} \mid \text{Event})}{P(\text{Observation} \mid \text{No Event})}$).
+  - **Base-Rate Fallacy:** Human intuition naturally ignores low background probabilities (base rates) when presented with positive test results. Knowing Bayes rule cures this cognitive bias.
+  - **Medical Screening Counter-Intuition:** Even with $80\%$ test sensitivity and $90\%$ specificity, a positive test for a disease with a $5\%$ base rate results in only a $\approx 29.6\%$ actual chance of having the disease ($40:95$ odds).
+- **Exercise 10 Result (Bayes Rule - Rain in Helsinki):** Scored **100% Correct**.
+  - $\text{Prior Odds} = 206:159$, $\text{LR} = 9 \implies \text{Posterior Odds} = \mathbf{1854:159}$ ($\approx 92\%$ probability).
+- **Exercise 11 Result (Bayes Rule - Breast Cancer Screening):** Scored **100% Correct**.
+  - $\text{Prior Odds} = 5:95$, $\text{LR} = \frac{0.80}{0.10} = 8 \implies \text{Posterior Odds} = \mathbf{40:95}$ ($\approx 29.6\%$ probability).
+- **Time Spent:** ~45 mins
+
 ---
 
 
