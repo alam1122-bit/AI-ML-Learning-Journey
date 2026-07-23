@@ -126,7 +126,17 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
   - $1 \times 5.1 \times 0.8 \times 53.2 \times 0.3 = \mathbf{65.1168}$ ($\approx 98.5\%$).
 - **Time Spent:** ~45 mins
 
+### 🗓️ Day 10: July 23, 2026
 
+- **Topic Covered:** Chapter 4, Section 1 – The Types of Machine Learning
+- **Key Takeaways:** 
+  - **Single-label Classification:** MNIST (0-9 digits) - each input gets exactly one correct class.
+  - **Why Expert Systems Fail:** Writing manual rules ("loop = 0") is too complex and full of exceptions; ML automates rule-learning.
+  - **3 Types of ML:**
+    1. **Supervised:** Learns from labeled data. Split into *Classification* (categories) and *Regression* (numeric predictions).
+    2. **Unsupervised:** No labels; finds structure via *Clustering*, *Visualization*, or *Generative Models (GANs)*.
+    3. **Reinforcement Learning:** Agents learn via environment rewards/penalties (e.g., self-driving cars).
+  - **Overfitting & Data Split:** Train/Test split prevents overfitting (where a model memorizes training data but fails on new data).
 ---
 
 
