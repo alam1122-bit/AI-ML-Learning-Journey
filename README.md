@@ -137,6 +137,19 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     2. **Unsupervised:** No labels; finds structure via *Clustering*, *Visualization*, or *Generative Models (GANs)*.
     3. **Reinforcement Learning:** Agents learn via environment rewards/penalties (e.g., self-driving cars).
   - **Overfitting & Data Split:** Train/Test split prevents overfitting (where a model memorizes training data but fails on new data).
+ 
+### 🗓️ Day 11: July 24, 2026 (Night of July 23, 2026)
+
+- **Topic Covered:** Chapter 4, Section 2 – The Nearest Neighbor Method & Recommendation Systems
+- **Key Takeaways:** 
+  - **Nearest Neighbor Classifier:** Assigns a label to new data based on the most similar item in the training set.
+  - **Measuring Similarity:** Distance metrics depend on data type—*Euclidean distance* for spatial data, *pixel-by-pixel match* for images, and *shared item count* for categorical data.
+  - **Collaborative Filtering:** Predicts user preferences by leveraging past behavior from other users with similar tastes rather than relying on manual metadata.
+  - **Exercise 14 (Recommendation System):** Evaluated Travis's shopping history against 6 users. *Ville* had the highest similarity (3 matching items), predicting Travis's next purchase as **sunscreen**.
+  - **Filter Bubbles (Exercise 15):** 
+    - **Impact:** Traps users in echo chambers by showing only belief-aligning content, causing social polarization and reduced critical thinking.
+    - **Solution:** Inject diverse/randomized content into feeds (e.g., 80% personalized / 20% diverse) and give users direct toggle control over filtering intensity.
+
 ---
 
 
