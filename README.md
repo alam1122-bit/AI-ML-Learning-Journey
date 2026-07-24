@@ -150,6 +150,20 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     - **Impact:** Traps users in echo chambers by showing only belief-aligning content, causing social polarization and reduced critical thinking.
     - **Solution:** Inject diverse/randomized content into feeds (e.g., 80% personalized / 20% diverse) and give users direct toggle control over filtering intensity.
 
+### 🗓️ Day 12: July 25, 2026
+
+- **Topic Covered:** Chapter 4, Section 3 – Linear Regression, Logistic Regression, & ML Limits
+- **Key Takeaways:**
+  - **Classification vs. Regression:** Classification predicts discrete categories (e.g., Spam/Ham), while regression outputs continuous numerical values (e.g., price, life expectancy).
+  - **Linear Combination:** Calculates predictions by multiplying input features by weights and adding an intercept.
+  - **Logistic Regression:** Converts linear output into probabilities (0 to 1) using a sigmoid function. It predicts labels like KNN, but is faster, memory-efficient, and easily interpretable.
+  - **Exercises Completed:**
+    - **Exercise 16:** Calculated life expectancies as **A: 81**, **B: 73**, and **C: 84**.
+    - **Exercise 17 & 18:** Determined that predicting with few data points lacks confidence; with 13 countries, 15 years of schooling yields an estimate **probably between 50 and 90 years**.
+    - **Exercise 19:** Identified that an 80% chance of passing requires **10–11 hours** of study.
+  - **ML Limits:** 100% accuracy is impossible; model success heavily relies on task difficulty, algorithm choice, data volume, and data quality/bias.
+
+
 ---
 
 
