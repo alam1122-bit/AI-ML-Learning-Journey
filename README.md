@@ -150,7 +150,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     - **Impact:** Traps users in echo chambers by showing only belief-aligning content, causing social polarization and reduced critical thinking.
     - **Solution:** Inject diverse/randomized content into feeds (e.g., 80% personalized / 20% diverse) and give users direct toggle control over filtering intensity.
 
-### 🗓️ Day 12: July 25, 2026
+### 🗓️ Day 12: July 25, 2026 (Night of July 24, 2026)
 
 - **Topic Covered:** Chapter 4, Section 3 – Linear Regression, Logistic Regression, & ML Limits
 - **Key Takeaways:**
@@ -163,6 +163,16 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     - **Exercise 19:** Identified that an 80% chance of passing requires **10–11 hours** of study.
   - **ML Limits:** 100% accuracy is impossible; model success heavily relies on task difficulty, algorithm choice, data volume, and data quality/bias.
 
+### 🗓️ Day 13: July 25, 2026
+
+- **Topic Covered:** Chapter 5, Section 1 – Neural Network Basics
+- **Key Takeaways:**
+  - **Deep Learning Architecture:** Uses layers of simple processing units to learn complex hierarchical structures efficiently.
+  - **Neuron Structure (Exercise 20):** Labeled 4 key components: *Dendrites* (input), *Cell body*, *Axon* (output), and *Synapses* (connections). Artificial models simplify these for computational efficiency.
+  - **Dual Purpose:** Used in neuroscience (treating brain disorders, BCIs) and AI (solving complex tasks like vision and NLP).
+  - **Parallel Processing:** Unlike sequential CPUs, neural networks process vast amounts of data simultaneously across many neurons.
+  - **Unified Memory & Processing:** Stores short-term memory in activations and long-term memory in weights, eliminating separate RAM-CPU transfer bottlenecks.
+  - **Hardware:** Performs best on **GPUs** built for massive parallel processing.
 
 ---
 
