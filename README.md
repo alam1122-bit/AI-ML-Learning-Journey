@@ -162,6 +162,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     - **Exercise 17 & 18:** Determined that predicting with few data points lacks confidence; with 13 countries, 15 years of schooling yields an estimate **probably between 50 and 90 years**.
     - **Exercise 19:** Identified that an 80% chance of passing requires **10–11 hours** of study.
   - **ML Limits:** 100% accuracy is impossible; model success heavily relies on task difficulty, algorithm choice, data volume, and data quality/bias.
+ - **Time Spent:** ~50 mins
 
 ### 🗓️ Day 13: July 25, 2026
 
@@ -173,6 +174,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
   - **Parallel Processing:** Unlike sequential CPUs, neural networks process vast amounts of data simultaneously across many neurons.
   - **Unified Memory & Processing:** Stores short-term memory in activations and long-term memory in weights, eliminating separate RAM-CPU transfer bottlenecks.
   - **Hardware:** Performs best on **GPUs** built for massive parallel processing.
+ - **Time Spent:** ~2 hours
 
 ---
 
