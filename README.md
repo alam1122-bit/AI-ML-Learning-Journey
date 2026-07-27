@@ -176,6 +176,22 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
   - **Hardware:** Performs best on **GPUs** built for massive parallel processing.
  - **Time Spent:** ~2 hours
 
+
+### 🗓️ Day 14: July 27, 2026
+
+- **Topic Covered:** Chapter 5, Section 2 – How Neural Networks Are Built
+- **Key Takeaways:**
+  - **Neuron Computation:** Computes a weighted sum of inputs plus a bias/intercept ($\text{Linear Combination} = \text{Intercept} + \sum W_i X_i$) and passes it through an **Activation Function** (e.g., Sigmoid, Step, Identity) to decide the final output.
+  - **Activation Types:** Real neurons communicate via sharp spikes ($1$ or $0$, like Morse code simulated by Step function), whereas artificial models often use smooth functions (like Sigmoid) to output continuous probabilities.
+  - **Perceptron & History:** The Perceptron (step-activation neuron) is the "mother of ANNs" created by Frank Rosenblatt (1957). Historical overhype led to funding drops known as **AI Winters**.
+  - **Multilayer Architecture:** Networks stack **Input**, **Hidden**, and **Output** layers. Multilayer Perceptrons rely on the **Backpropagation** algorithm (pioneered mathematically by Seppo Linnainmaa) to optimize deep weights.
+  - **Exercises Completed:**
+    - **Exercise 21 (Linear Combination):** Identified intercept ($10.0$), inputs ($8, 5, 22, -5, 2, -3$), largest impact weight ($101.4$), and zero-impact input ($5\text{th}$ weight $= 0.0$).
+    - **Exercise 22 (Activation Graphs):** Identity gives highest for input $5$ ($y=5$) and lowest for input $-5$ ($y=-5$); Sigmoid gives highest for input $-2.5$ ($y > 0$).
+    - **Pixel Classifier Example:** Built a $5 \times 5$ grid binary classifier ($25$ pixel inputs) for cross vs. circle shapes using custom spatial weights (e.g., center vs. edge values).
+    - **Smiley Face Exercise:** Demonstrated the limitation of a single linear neuron—single-layer models cannot perfectly separate non-linearly separable patterns (achieving at most partial accuracy like $6/8$).
+- **Time Spent:** ~2.5 hours
+
 ---
 
 
