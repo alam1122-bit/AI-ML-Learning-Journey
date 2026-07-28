@@ -195,14 +195,18 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 ### 🗓️ Day 15: July 28, 2026
 
-- **Topic Covered:** Chapter 5, Section 3 & 4 – Advanced Neural Network Techniques & Rise of LLMs
+- **Topic Covered:** Elements of AI – Chapter 5 (Section 2: How Neural Networks Are Built & Section 3: Advanced Neural Network Techniques)
 - **Key Takeaways:**
-  - **Convolutional Neural Networks (CNNs):** Reduce learnable weights via weight sharing and spatial filtering, making feature detection invariant to scale and position (e.g., detecting ears/snouts anywhere in an image).
-  - **Layer Hierarchy & Transfer Learning:** Bottom layers use unsupervised learning to extract generic features (edges, textures) from raw pixels. These pre-trained layers can be reused across different vision tasks. Top layers use supervised backpropagation for specific classification.
-  - **Feature Visualization & GANs:** Generated images reveal bottom layer feature representations (often metaphorically termed "network dreaming" like Google's DeepDream). Ian Goodfellow proposed GANs, pairing a Generative model (image painter) against an Adversarial model (detective) to create realistic synthetic images.
-  - **Attention Mechanism & Transformers:** Google's 2017 paper *"Attention is All You Need"* introduced the Transformer architecture, which uses attention mechanisms to focus selectively on relevant input parts, powering modern models like GPT, BERT, and LLaMA.
-  - **Large Language Models (LLMs) & ChatGPT:** LLMs predict next-token continuations based on massive text corpora (e.g., CommonCrawl, Wikipedia). OpenAI launched ChatGPT on Nov 30, 2022, fine-tuned with RLHF for interactive, safe, and context-aware dialogue.
-- **Time Spent:** ~2.5 hours
+  - **Neuron Computation:** Computes $\text{Linear Combination} = \text{Intercept} + \sum W_i X_i$ and passes it through an **Activation Function** (Step, Sigmoid, or Identity) to output a prediction.
+  - **Perceptron & AI Winter:** The Perceptron (step-activation neuron created by Frank Rosenblatt, 1957) is the basic unit of ANNs. Historical overhype led to funding drops known as **AI Winters**.
+  - **Multilayer Architecture & Backpropagation:** Stacks **Input**, **Hidden**, and **Output** layers. Multilayer networks rely on **Backpropagation** (historically traced to automatic differentiation work by Seppo Linnainmaa at the University of Helsinki) to adjust weights.
+  - **Single Neuron Limitation:** Simple linear classifiers cannot solve non-linearly separable problems (e.g., Smiley Face exercise where perfect $8/8$ accuracy is impossible with a single neuron).
+  - **Convolutional Neural Networks (CNNs):** Reduce learnable weights using shared weights and spatial scaling to detect features (edges, ears, shapes) regardless of position or size in the image.
+  - **Layer Hierarchy & Transfer Learning:** Bottom convolutional layers extract generic features from raw pixels via unsupervised learning and can be reused across tasks. Top layers undergo supervised fine-tuning via backpropagation.
+  - **Feature Visualization & GANs:** Optimizing activations reveals learned internal features (e.g., Google DeepDream "hallucinations"). Ian Goodfellow proposed **GANs**, pairing a Generative network (painter) against an Adversarial network (detective) to create realistic synthetic images.
+  - **Attention & Transformers:** Google's 2017 paper *"Attention is All You Need"* introduced the Transformer architecture, using attention mechanisms to focus selectively on relevant parts of sequential data.
+  - **LLMs & ChatGPT:** Large Language Models predict next-token continuations based on massive text datasets (e.g., CommonCrawl, Wikipedia). OpenAI launched ChatGPT on Nov 30, 2022, fine-tuned with RLHF for interactive, safe dialogue.
+- **Time Spent:** ~5.0 hours
 
 ---
 
