@@ -192,6 +192,18 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     - **Smiley Face Exercise:** Demonstrated the limitation of a single linear neuron—single-layer models cannot perfectly separate non-linearly separable patterns (achieving at most partial accuracy like $6/8$).
 - **Time Spent:** ~2.5 hours
 
+
+### 🗓️ Day 15: July 28, 2026
+
+- **Topic Covered:** Chapter 5, Section 3 & 4 – Advanced Neural Network Techniques & Rise of LLMs
+- **Key Takeaways:**
+  - **Convolutional Neural Networks (CNNs):** Reduce learnable weights via weight sharing and spatial filtering, making feature detection invariant to scale and position (e.g., detecting ears/snouts anywhere in an image).
+  - **Layer Hierarchy & Transfer Learning:** Bottom layers use unsupervised learning to extract generic features (edges, textures) from raw pixels. These pre-trained layers can be reused across different vision tasks. Top layers use supervised backpropagation for specific classification.
+  - **Feature Visualization & GANs:** Generated images reveal bottom layer feature representations (often metaphorically termed "network dreaming" like Google's DeepDream). Ian Goodfellow proposed GANs, pairing a Generative model (image painter) against an Adversarial model (detective) to create realistic synthetic images.
+  - **Attention Mechanism & Transformers:** Google's 2017 paper *"Attention is All You Need"* introduced the Transformer architecture, which uses attention mechanisms to focus selectively on relevant input parts, powering modern models like GPT, BERT, and LLaMA.
+  - **Large Language Models (LLMs) & ChatGPT:** LLMs predict next-token continuations based on massive text corpora (e.g., CommonCrawl, Wikipedia). OpenAI launched ChatGPT on Nov 30, 2022, fine-tuned with RLHF for interactive, safe, and context-aware dialogue.
+- **Time Spent:** ~2.5 hours
+
 ---
 
 
