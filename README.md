@@ -10,7 +10,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 ---
 
-## 📚 Course 1: Elements of AI (University of Helsinki)
+## 📚 Course 1.1: Elements of AI (University of Helsinki)
 
 ### 🗓️ Day 1: July 14, 2026 (Started on the night of July 13)
 - **Topic Covered:** Chapter 1, Section 1 - What is, and what isn't AI?
@@ -223,6 +223,20 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 - **Time Spent:** ~4.5 hours
 
 
+## 📚 Course 1.2: Building AI (University of Helsinki)
+
+### 🗓️ Day 17: July 30, 2026
+
+- **Topic Covered:** Building AI – Getting Started with AI (Section 1: Why AI Matters & Exercise 0: Introduction to Exercises)
+- **Key Takeaways:**
+  - **Relevance & Scope of AI:** Understood that "Narrow AI" is deeply integrated into daily tools (search, smart photography, GPS) and that AI is fundamentally a set of algorithmic methods for practical problem-solving.
+  - **Real-World Impact Areas:** Explored key applications including Content Recommendation, E-commerce algorithms, NLP-driven online safety, Satellite Infrastructure Mapping, and Robotic Waste Sorting.
+  - **Career Roles in AI:** Identified three major paths—Domain Specialists (ideating solutions), Data Engineers (managing data flow and preventing *"Garbage In, Garbage Out"*), and AI Developers/Data Scientists (implementing core algorithms).
+  - **Exercise 0 (Multi-Track Completion):**
+    - **Beginner Track:** Completed conceptual verification and platform workflow orientation.
+    - **Intermediate Track:** Configured Python function calls and parameter handling by modifying basic script execution (`def greet(name): print("Welcome " + name + "!")`).
+    - **Advanced Track:** Implemented a recursive factorial function (`def factorial(n): return 1 if n <= 1 else n * factorial(n - 1)`) to compute $6! = 720$, establishing the warm-up mathematical base needed for upcoming permutation-based search space algorithms (TSP).
+- **Time Spent:** ~3.5 hours
 ---
 
 
