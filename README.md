@@ -12,6 +12,11 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 ## 📚 Course 1.1: Elements of AI (University of Helsinki)
 
+<details>
+<summary><b>📜 Click here to expand completed daily logs (Day 1 to Day 16)</b></summary>
+
+<br>
+
 ### 🗓️ Day 1: July 14, 2026 (Started on the night of July 13)
 - **Topic Covered:** Chapter 1, Section 1 - What is, and what isn't AI?
 - **Key Takeaways:** 
@@ -222,6 +227,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
   - **Course Completion:** Successfully completed all chapters and exercises of the *Elements of AI* course provided by the University of Helsinki & MinnaLearn (including 2 ECTS credit eligibility).
 - **Time Spent:** ~4.5 hours
 
+</details>
 
 ## 📚 Course 1.2: Building AI (University of Helsinki)
 
