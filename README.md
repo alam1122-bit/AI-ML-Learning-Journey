@@ -243,6 +243,20 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     - **Intermediate Track:** Configured Python function calls and parameter handling by modifying basic script execution (`def greet(name): print("Welcome " + name + "!")`).
     - **Advanced Track:** Implemented a recursive factorial function (`def factorial(n): return 1 if n <= 1 else n * factorial(n - 1)`) to compute $6! = 720$, establishing the warm-up mathematical base needed for upcoming permutation-based search space algorithms (TSP).
 - **Time Spent:** ~3.5 hours
+
+### 🗓️ Day 18: August 05, 2026
+
+- **Topic Covered:** Building AI – Getting Started with AI (Section 2: Optimization & TSP)
+- **Key Takeaways:**
+  - **Optimization & Brute Force:** Understood how search problems like the Traveling Salesperson Problem (TSP) find optimal paths by enumerating all choices, and recognized the limits of brute force due to **Combinatorial Explosion** ($n!$ growth).
+  - **Exercise 1 (`exercise_1.py` - Intermediate & Advanced):**
+    - Implemented permutation generation via recursion to list all $4! = 24$ possible pineapple shipping routes originating from Panama (`PAN`).
+    - Handled dynamic port list sizes using recursive backtracking (`route + [ports[i]]`).
+  - **Exercise 2 (`exercise_2.py` - Intermediate & Advanced):**
+    - Calculated total $CO_2$ emissions using a $5 \times 5$ distance matrix ($D$) and rate ($0.020\text{ kg/km}$).
+    - Tracked and evaluated minimum cost routes across permutations to output the optimal path and emissions value.
+- **Time Spent:** ~5 hours
+
 ---
 
 
