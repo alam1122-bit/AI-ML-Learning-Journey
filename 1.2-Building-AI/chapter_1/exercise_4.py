@@ -19,4 +19,37 @@ def main():
 
 main()
 
+"""
+Write a program that prints "I love" followed by one word: the additional word should be 'dogs' with 80% probability, 'cats' with 10% probability,
+and 'bats' with 10% probability.
+
+Here's an example output:
+I love bats
+
+"""
+# Advance Level
+
+import random
+
+def main():
+
+    number = random.random() 
+
+    if (number < 0.8):
+        favourite = 'dogs'
+    elif (number < 0.9):
+        favourite = 'cats'
+    else:
+        favourite = 'bats'
+
+   # favourite = name  # change this
+    print("I love " + favourite) 
+
+
+main()
+
+
+
+
+
 
