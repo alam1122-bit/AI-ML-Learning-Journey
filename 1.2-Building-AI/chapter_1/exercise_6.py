@@ -34,9 +34,9 @@ n = 10000 # size of the problem: number of possible solutions x = 0, ..., n-1
 def mountains(n):
     h = [0]*n
     for i in range(50):
-        c = random.randint(20, n-20) # 20 <= x <= 980 e.g. 500
-        w = random.randint(3, int(math.sqrt(n/5)))**2 # e.g 3,195  100
-        s = random.random() # e.g .12
+        c = random.randint(20, n-20) 
+        w = random.randint(3, int(math.sqrt(n/5)))**2 
+        s = random.random() 
         h[max(0, c-w):min(n, c+w)] = [h[i] + s*(w-abs(c-i)) for i in range(max(0, c-w), min(n, c+w))]
     # scale the height so that the lowest point is 0.0 and the highest peak is 1.0
     low = min(h)
