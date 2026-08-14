@@ -34,10 +34,11 @@ n = 10000 # size of the problem: number of possible solutions x = 0, ..., n-1
 def mountains(n):
     h = [0]*n
     for i in range(50):
-        c = random.randint(20, n-20) 
-        w = random.randint(3, int(math.sqrt(n/5)))**2 
-        s = random.random() 
+        c = random.randint(20, n-20) # 20 <= x <= 980 e.g. 500
+        w = random.randint(3, int(math.sqrt(n/5)))**2 # e.g 3,195  100
+        s = random.random() # e.g .12
         h[max(0, c-w):min(n, c+w)] = [h[i] + s*(w-abs(c-i)) for i in range(max(0, c-w), min(n, c+w))]
+        # h[400:600] = h[0]+ 480 for i in range(400:600)
     # scale the height so that the lowest point is 0.0 and the highest peak is 1.0
     low = min(h)
     high = max(h)
@@ -67,20 +68,15 @@ def main(h, x):
         # the height at this point will be our candidate score, S_new
         # while the height at our current location will be S_old
         x_new = random.randint(max(0, x-1000), min(n-1, x+1000))
-
         if h[x_new] > h[x]:
             x = x_new           # the new position is higher, go there
         else:
-            pass               # add simulated annealing here. remember to handle T=0
-                               # correctly!
-
+            if T > 0:
+                prob =  math.exp( - ( h[x] - h[x_new])/T)  
+                if random.random() < prob:
+                    x = x_new          
     return x
 
 x = main(h, x0)
 print("ended up at %d, highest point is %d" % (x, np.argmax(h)))
-
-
-
-
-
 
