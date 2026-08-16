@@ -257,6 +257,26 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     - Tracked and evaluated minimum cost routes across permutations to output the optimal path and emissions value.
 - **Time Spent:** ~5 hours
 
+## 🗓️ Day 19: August 16, 2026
+
+**Topic:** Building AI — Ch 1, Sec 3: Optimization & Hill Climbing
+
+### 💡 Key Concepts
+* **Hill Climbing:** Greedy search prone to local optima.
+* **Simulated Annealing:** Escapes local peaks via $P = e^{-\frac{S_{\text{old}} - S_{\text{new}}}{T}}$.
+* **Cooling Schedule:** High $T$ (exploration) decays to $T \to 0$ (exploitation).
+
+### 📁 Files & Exercises
+* `Back_tracking_practise.py` — Recursive backtracking for seating constraints.
+* `exercise_3.py`  — Hill climbing with 5-step lookahead.
+* `exercise_4.py`  — Probabilistic choice using `random.random()`.
+* `exercise_5.py`  — Simulated annealing $P(\text{accept})$ formula.
+* `exercise_6.py`  — 2D SA optimizer with cubic cooling schedule.
+
+⏱️ **Time Spent:** ~6 hours
+
+
+
 ---
 
 
