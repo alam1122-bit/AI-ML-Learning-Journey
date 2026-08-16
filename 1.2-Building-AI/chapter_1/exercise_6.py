@@ -96,7 +96,6 @@ One example that should work okay is
 T = max(0, ((steps - step)/steps)**3-.005) where step is the current iteration and steps is the total number of iterations. 
 You don't have to change the number of iterations from steps = 3000.
 """
-
 import numpy as np
 import random
 
@@ -124,8 +123,7 @@ def main():
 
     for step in range(steps):
         # add a temperature schedule here
-        T = 1
-        # update solutions on each search track                                     
+        T = max(0, ((steps - step) / steps) ** 3 - 0.005) 
         for i in range(tracks):
             # try a new solution near the current one                               
             x_new = np.random.randint(max(0, x[i]-2), min(N, x[i]+2+1))
@@ -137,10 +135,10 @@ def main():
             if S_new > S_old:
                 x[i], y[i] = x_new, y_new   # new solution is better, go there       
             else:
-                pass                        # if the new solution is worse, do nothing
-
+                if T > 0:
+                    if random.random() < (np.exp(-(S_old - S_new) / T)):
+                        x[i], y[i] = x_new, y_new
+                        pass
     # Number of tracks found the peak
     print(sum([x[j] == peak_x and y[j] == peak_y for j in range(tracks)])) 
 main()
-
-
