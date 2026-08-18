@@ -1,4 +1,15 @@
 """
+Level - Beginner
+
+What is the probability that the winner is a fisher given that they are Norwegian? Be mindful of the innocent sounding distinction between 
+the probability of X given Y and the probability of Y given X.
+
+Select the correct answer
+
+Ans: 0.229%
+
+"""
+"""
 level - Intermediate
 
 Write a program that uses statistics about the population and fishing industry employment to print out conditional probabilities of 
