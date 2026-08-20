@@ -61,7 +61,6 @@ Tip: Your values might be different, but the formatting should be identical.
 Hint: Depending on the gender of the winner, you should use the numbers in the "Male fishers" or "Female fishers" column in the above table. 
 The country for which the number in the chosen column is the highest, is the most likely nationality of the winner.
 """
-
 countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
 populations = [5615000, 5439000, 324000, 5080000, 9609000]
 male_fishers = [1822, 2575, 3400, 11291, 1731]
@@ -88,3 +87,4 @@ def main():
     print("if the winner is female, my guess is she's from %s; probability %.2f%%" % (country, fraction))
 
 main()
+
