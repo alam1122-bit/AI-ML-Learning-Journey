@@ -31,12 +31,12 @@ def main():
     total_fishers = sum(fishers)
     total_population = sum(populations)
 
-    # write your solution here
-
-    for country, population in zip(countries, populations):
-        print("%s %.2f%%" % (country, population)) # modify this to print correct results
+    for country, fishers in zip(countries, fishers):
+        fishers_percent = (fishers/total_fishers)*100
+        print("%s %.2f%%" % (country, fishers_percent)) # modify this to print correct results
 
 main()
+
 
 
 """
