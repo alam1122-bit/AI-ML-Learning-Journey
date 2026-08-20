@@ -275,7 +275,20 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 ⏱️ **Time Spent:** ~6 hours
 
+🗓️ Day 20: August 20, 2026
 
+Topic: Elements of AI / Building AI — Ch 2, Sec 1: Probability Fundamentals
+
+💡 Key Concepts
+* Monte Carlo Method: Estimating probabilities by simulating random trials and counting target occurrences.
+* Probability Fundamentals: Independent events, random sequence generation, and sequence pattern matching.
+* Conditional Probability: Updating probabilities and beliefs based on prior information (e.g., $P(\text{Country} \mid \text{Fisher, Gender})$).
+
+📁 Files & Exercises
+* exercise_7.py — Monte Carlo simulation to generate binary sequences and count consecutive "11111" patterns.
+* exercise_8.py — Conditional probability model to predict a lottery winner's nationality given their profession (fisher) and gender.
+
+⏱️ Time Spent: ~4 hours
 
 ---
 
