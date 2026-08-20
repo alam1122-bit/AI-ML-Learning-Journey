@@ -73,9 +73,13 @@ def guess(winner_gender):
     else:
         fishers = male_fishers
 
-    guess = None
-    biggest = 0.0
-    return (guess, biggest)  
+    total_fishers = sum(fishers)
+    max_fishers = max(fishers)
+    max_index = fishers.index(max_fishers)
+
+    prob = (max_fishers/total_fishers)*100
+    biggest = countries[max_index]
+    return (biggest, prob)  
 
 def main():
     country, fraction = guess("male")
