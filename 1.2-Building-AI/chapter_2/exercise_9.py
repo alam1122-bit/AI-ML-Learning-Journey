@@ -1,4 +1,9 @@
 """
+There is a specific way to calculate such conditional probabilities that is particularly useful in many applications, namely the Bayes rule. 
+The often-used formula for the Bayes rule is:
+
+  P(A|B) = (P(B|A) * P(A)) / P(B)
+
 Level - Beginner
 Exercise 9: Block or not
 Let's suppose you have a social media account on Instagram, Twitter, or some other platform (just in case you don't, 
