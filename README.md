@@ -275,7 +275,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 ⏱️ **Time Spent:** ~6 hours
 
-🗓️ Day 20: August 20, 2026
+### 🗓️ Day 20: August 20, 2026
 
 Topic: Elements of AI / Building AI — Ch 2, Sec 1: Probability Fundamentals
 
@@ -290,7 +290,7 @@ Topic: Elements of AI / Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 ⏱️ Time Spent: ~4 hours
 
-🗓️ **Day 21: August 25, 2026**  
+### 🗓️ Day 21: August 25, 2026  
 **Topic:** Elements of AI / Building AI — Ch 2, Sec 2: The Bayes Rule  
 💡 **Key Concepts**  
 * **Bayes' Rule Foundations:** Updating posterior probabilities $P(A \mid B)$ based on likelihood $P(B \mid A)$, prior $P(A)$, and marginal evidence $P(B)$.  
