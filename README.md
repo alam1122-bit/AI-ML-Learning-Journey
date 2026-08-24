@@ -290,7 +290,13 @@ Topic: Elements of AI / Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 ⏱️ Time Spent: ~4 hours
 
+🗓️ **Day 21: August 25, 2026**  
+**Topic:** Elements of AI / Building AI — Ch 2, Sec 2: The Bayes Rule  
+💡 **Key Concepts**  
+* **Bayes' Rule Foundations:** Updating posterior probabilities $P(A \mid B)$ based on likelihood $P(B \mid A)$, prior $P(A)$, and marginal evidence $P(B)$.  
+* **Law of Total Probability:** Calculating total evidence $P(\text{8-digits})$ by combining likelihoods across complementary events (bot vs. human).  
+* **Bot Detection Model:** Using conditional probability to classify social media accounts (calculating $P(\text{bot} \mid \text{8-digits})$ to decide whether to block a follower).  
+📁 **Files & Exercises**  
+* `exercise_9.py` — Python implementation of Bayes' rule to compute $P(\text{bot} \mid \text{8-digits})$ given prior bot probability and feature likelihoods.  
+⏱️ **Time Spent:** ~3 hours
 ---
-
-
-
