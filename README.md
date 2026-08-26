@@ -299,4 +299,14 @@ Topic: Elements of AI / Building AI — Ch 2, Sec 1: Probability Fundamentals
 📁 **Files & Exercises**  
 * `exercise_9.py` — Python implementation of Bayes' rule to compute $P(\text{bot} \mid \text{8-digits})$ given prior bot probability and feature likelihoods.  
 ⏱️ **Time Spent:** ~3 hours
+
+### 🗓️ Day 22: August 26, 2026  
+**Topic:** Building AI — Ch 2, Sec 3: Naive Bayes Classifier  
+💡 **Key Concepts**  
+* **Naive Bayes Fundamentals:** Applying Bayes' rule iteratively under the conditional independence assumption (bag-of-words model).  
+* **Odds & Likelihood Ratio:** Updating prior odds ($1:1$) using the likelihood ratio $r = \frac{P(\text{outcome} \mid \text{Loaded})}{P(\text{outcome} \mid \text{Normal})}$ to track belief updates efficiently.  
+* **Dice Classifier Simulation:** Computing conditional likelihoods ($r = 3.0$ for roll 6, $r = 0.6$ for rolls 1–5) across 10 sequence rolls to classify die type (Loaded vs. Normal).  
+📁 **Files & Exercises**  
+* `exercise_10.py` — Complete implementation of Naive Bayes classifier in Python to infer die selection based on outcome sequences.  
+⏱️ **Time Spent:** ~3 hours
 ---
