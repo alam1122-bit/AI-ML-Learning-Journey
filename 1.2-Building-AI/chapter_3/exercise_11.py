@@ -1,4 +1,6 @@
 """
+Exercise 11: Real estate price predictions
+
 Level - Beginner
 
 # input values for one mökkis: size, size of sauna, distance to water, number of indoor bathrooms, 
@@ -52,6 +54,8 @@ def predict(X, c):
 predict(X, c)
 
 """
+Level - Advanced
+
 Edit the following program so that it can process multiple cabins that may be described by any number of details (like five below), at the same time. 
 You can assume that each of the lists contained in the list x and the coefficients c contain the same number of elements.
 """
