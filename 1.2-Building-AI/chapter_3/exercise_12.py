@@ -1,4 +1,6 @@
 """
+Exercise 12: Least squares
+
 Level - Beginner
 
 Suppose we have a data set of three points in the format of (x, y): (0, 5), (2, 9.6), and (3.2, 13.6). Your colleagues have built three different models to fit the data, 
