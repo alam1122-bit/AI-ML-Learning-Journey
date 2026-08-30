@@ -8,7 +8,7 @@ all of the form y = a + b*x. They have given you the coefficients of their model
 
 a) a=0.5, b=3.2
 
-b) a=0, b=1.9
+ b) a=0, b=1.9
 
 c) a=7.6, b=1.9
 
@@ -35,13 +35,10 @@ c = np.array([3000, 200 , -50, 5000, 100])    # coefficient values
  
 def squared_error(X, y, c):
     sse = 0.0
+    pred_y = 0.0
     for xi, yi in zip(X, y):
-        # add your code here: calculate the predicted price,
-        # subtract it from the actual price yi, 
-        # square the difference using (yi - prediction)**2, 
-        # and add up all the differences in variable sse
-        pass
-
+       pred_y = (xi @ c)
+       sse += (yi - pred_y) ** 2
     print(sse)
 
 squared_error(X, y, c)
