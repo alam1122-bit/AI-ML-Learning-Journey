@@ -66,11 +66,12 @@ c = np.array([[3000, 200 , -50, 5000, 100],
 def find_best(X, y, c):
     smallest_error = np.Inf
     best_index = -1
-    for coeff in c:
-        pass     # edit here: calculate the sum of squared error with coefficient set coeff and
-                 # keep track of the one yielding the smallest squared error
+    for index, coeff in enumerate(c):
+        sse = np.sum((y - (X @ coeff)) ** 2)
+        if sse < smallest_error:
+            smallest_error = sse
+            best_index = index
     print("the best set is set %d" % best_index)
 
 
 find_best(X, y, c)
-
