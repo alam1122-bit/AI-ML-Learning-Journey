@@ -277,7 +277,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 ### 🗓️ Day 20: August 20, 2026
 
-Topic: Elements of AI / Building AI — Ch 2, Sec 1: Probability Fundamentals
+Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 💡 Key Concepts
 * Monte Carlo Method: Estimating probabilities by simulating random trials and counting target occurrences.
@@ -291,7 +291,7 @@ Topic: Elements of AI / Building AI — Ch 2, Sec 1: Probability Fundamentals
 ⏱️ Time Spent: ~4 hours
 
 ### 🗓️ Day 21: August 25, 2026  
-**Topic:** Elements of AI / Building AI — Ch 2, Sec 2: The Bayes Rule  
+**Topic:** Building AI — Ch 2, Sec 2: The Bayes Rule  
 💡 **Key Concepts**  
 * **Bayes' Rule Foundations:** Updating posterior probabilities $P(A \mid B)$ based on likelihood $P(B \mid A)$, prior $P(A)$, and marginal evidence $P(B)$.  
 * **Law of Total Probability:** Calculating total evidence $P(\text{8-digits})$ by combining likelihoods across complementary events (bot vs. human).  
@@ -309,4 +309,32 @@ Topic: Elements of AI / Building AI — Ch 2, Sec 1: Probability Fundamentals
 📁 **Files & Exercises**  
 * `exercise_10.py` — Complete implementation of Naive Bayes classifier in Python to infer die selection based on outcome sequences.  
 ⏱️ **Time Spent:** ~3 hours
+
+# 🗓️ Day 23: September 20, 2026
+**Topic:** Building AI — Ch 3, Sec 1: Machine Learning & Linear Regression  
+
+💡 **Key Concepts**  
+* **ML Categorization:** Reviewing Supervised Learning (classification vs. regression), Unsupervised Learning (clustering), and Reinforcement Learning (reward-based agents).  
+* **Linear Regression Fundamentals:** Modeling cabin prices using features ($x$) and coefficients ($c$) via $y = c_1 x_1 + c_2 x_2 + \dots + c_n x_n$. Understanding feature sensitivity and negative weights (e.g., distance to water decreasing price).  
+* **Least Squares Method ($\text{lstsq}$):** Estimating optimal regression coefficients using the Method of Least Squares to minimize squared differences ($E = \sum (y - \hat{y})^2$).  
+* **Matrix Operations with NumPy:** Replacing nested loops with the `@` matrix multiplication operator (`x @ c`) for fast batch predictions.  
+* **Training vs. Test Split:** Understanding why exact-fit training predictions occur when data points are fewer than features, and the importance of isolating `x_test` to evaluate true model performance on unseen data.  
+
+📁 **Files & Exercises (`1.2-Building-AI/chapter_3/`)**  
+* `exercise_11.py` — Vectorized real estate price predictions across multiple cabins using the `@` matrix multiplication operator in NumPy.  
+* `exercise_12.py` — Implementation of least squares error calculation to select the best-fit coefficient vector from candidates.  
+* `exercise_13.py` — Fitting linear regression on dynamic CSV/string data using `StringIO`, `np.loadtxt`, and `np.linalg.lstsq`.  
+* `exercise_14.py` — Splitting train/test datasets using array slicing (`[:, :-1]` for features, `[:, -1]` for target) to estimate coefficients and predict unseen cabin prices.  
+
+⏱️ **Time Spent:** ~4 hours
+
+### 📂 Repository File Structure
+
+text
+1.2-Building-AI/
+└── chapter_3/
+    ├── exercise_11.py
+    ├── exercise_12.py
+    ├── exercise_13.py
+    └── exercise_14.py
 ---
