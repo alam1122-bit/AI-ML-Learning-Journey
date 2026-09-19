@@ -5,18 +5,18 @@ Level: Intermediate
 
 The program estimates the coefficients of a linear regression model (array c) from the following data:
 
-size	size of the sauna	distance to water	number of indoor bathrooms	proximity of neighbors	actual price
-cabin 1	25	2	50	1	500	127,900
-cabin 2	39	3	10	1	1000	222,100
-cabin 3	13	2	13	1	1000	143,750
-cabin 4	82	5	20	2	120	268,000
-cabin 5	130	6	10	2	600	460,700
-cabin 6	115	6	10	1	550	407,000
+                size	size of the sauna	distance to water	number of indoor bathrooms	    proximity of neighbors	    actual price
+cabin 1	        25	              2	                    50	          1	                                500	                    127,900
+cabin 2	        39	              3	                    10	          1	                                1000	                222,100
+cabin 3	        13	              2	                    13	          1	                                1000	                143,750
+cabin 4	        82	              5	                    20	          2	                                120	                    268,000
+cabin 5	        130	              6	                    10	          2	                                600	                    460,700
+cabin 6	        115	              6	                    10	          1	                                550	                    407,000
 Use the predicted coefficients to obtain price estimates for the following two cabins:
 
-size	size of the sauna	distance to water	number of indoor bathrooms	proximity of neighbors	actual price
-cabin 7	36	3	15	1	850	196000
-cabin 8	75	5	18	2	540	290000
+            size    size of the sauna	distance to water	number of indoor bathrooms	proximity of neighbors	actual price
+cabin 7	     36	                3	             15	                        1	                850	                196000
+cabin 8	     75	                5	             18	                        2	                540	                290000
 Note that the predicted prices will not be the same as the actual prices (which are given in the above table just for comparison – you won't need them in the exercise).
 '''
 import numpy as np
