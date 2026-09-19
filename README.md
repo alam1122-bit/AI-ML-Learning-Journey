@@ -328,13 +328,4 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 ⏱️ **Time Spent:** ~4 hours
 
-### 📂 Repository File Structure
-
-text
-1.2-Building-AI/
-└── chapter_3/
-    ├── exercise_11.py
-    ├── exercise_12.py
-    ├── exercise_13.py
-    └── exercise_14.py
 ---
