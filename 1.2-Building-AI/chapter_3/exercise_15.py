@@ -43,6 +43,7 @@ nearest(x_train, x_test)
 Here is a short piece of code, using the same cabin pricing data as in the previous section. 
 It uses training data from four cabins to predict the prices of two more cabins in the test data.
 '''
+# Practice
 import math
 import numpy as np
 
