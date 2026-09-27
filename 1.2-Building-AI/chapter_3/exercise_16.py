@@ -64,9 +64,39 @@ def main(X_train, X_test, y_train, y_test):
         lines.append(np.stack((test_item, X_train[nearest])))
 
         # add your code here:
-        y_predict[i] = 0          # this just classifies everything as 0 
+        y_predict[i] = y_train[nearest]           # this just classifies everything as 0 
 
     print(y_predict)
 
 
 main(X_train, X_test, y_train, y_test)
+
+
+'''
+Advance Level
+In the basic nearest neighbor classifier, the only thing that matters is the class label of the nearest neighbor. 
+But the nearest neighbor may sometimes be noisy or otherwise misleading. 
+Therefore, it may be better to also consider the other nearby data points in addition to the nearest neighbor.
+
+This idea leads us to the so called k-nearest neighbor method, where we consider all the k nearest neighbors. 
+If k=3, for example, we'd take the three nearest points and choose the class label based on the majority class among them.
+
+The program below uses the library sklearn to generate a random dataset. You don't need to be familiar with sklearn, 
+we explain all the necessary information below. Each sample in the dataset has two input features (X) and one binary output class (y). 
+We can think of a sample as a cabin, with its size and price as its input features, and whether we like it (1) or not (0) as its output class.
+
+The program first generates the random dataset and splits it into training and test sets. Then, for each cabin in the test set, 
+it identifies its nearest neighbor (k=1) from the cabins in the train set using the distance function. 
+However, the program has very high standards and dislikes all the cabins y_predict[i] = 0.
+
+Your goal is to make the program smarter by predicting the output class (y_predict) for each cabin in the test set based on the 
+majority output class (y_train) of its three nearest neighbor (k=3).
+
+Hint: 
+Hint 1: After calculating all the distances in D (see the code below) you can use np.argsort to sort the points in increasing distance.
+
+Hint 2: You can assume that there are only two possible class labels, 0 and 1. As this is the case, 
+you can get the majority where class by np.round(np.mean(y)) where y is the list containing the class labels of the nearest neighbors. 
+This works by calculating the mean of the class labels and rounding it to zero in case it is less than 0.5 and one otherwise, 
+which is the same as the majority rule.
+'''
