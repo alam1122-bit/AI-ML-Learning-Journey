@@ -1,5 +1,6 @@
 '''
 Exercise 16: Nearest neighbor
+
 The program below uses the library sklearn to generate a random dataset. You don't need to be familiar with sklearn, we explain all the necessary information below. 
 Each sample in the dataset has two input features X and one binary output class y. We can think of a sample as a cabin, with its size and price as its input features, 
 and whether we like it (1) or not (0) as its output class.
@@ -73,7 +74,6 @@ main(X_train, X_test, y_train, y_test)
 
 
 '''
-Advance Level
 In the basic nearest neighbor classifier, the only thing that matters is the class label of the nearest neighbor. 
 But the nearest neighbor may sometimes be noisy or otherwise misleading. 
 Therefore, it may be better to also consider the other nearby data points in addition to the nearest neighbor.
@@ -100,6 +100,7 @@ you can get the majority where class by np.round(np.mean(y)) where y is the list
 This works by calculating the mean of the class labels and rounding it to zero in case it is less than 0.5 and one otherwise, 
 which is the same as the majority rule.
 '''
+# Level - Advance
 
 import numpy as np
 from sklearn.datasets import make_blobs
