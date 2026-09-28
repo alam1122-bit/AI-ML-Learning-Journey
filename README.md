@@ -282,7 +282,7 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 💡 Key Concepts
 * Monte Carlo Method: Estimating probabilities by simulating random trials and counting target occurrences.
 * Probability Fundamentals: Independent events, random sequence generation, and sequence pattern matching.
-* Conditional Probability: Updating probabilities and beliefs based on prior information (e.g., $P(\text{Country} \mid \text{Fisher, Gender})$).
+* Conditional Probability: Updating probabilities and beliefs based on prior information.
 
 📁 Files & Exercises
 * exercise_7.py — Monte Carlo simulation to generate binary sequences and count consecutive "11111" patterns.
