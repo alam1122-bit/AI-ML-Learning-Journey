@@ -254,7 +254,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
     - Handled dynamic port list sizes using recursive backtracking (`route + [ports[i]]`).
   - **Exercise 2 (`exercise_2.py` - Intermediate & Advanced):**
     - Calculated total $CO_2$ emissions using a $5 \times 5$ distance matrix ($D$) and rate ($0.020\text{ kg/km}$).
-    - Tracked and evaluated minimum cost routes across permutations to output the optimal path and emissions value.
+    - Tracked and evaluated minimum-cost routes across permutations to output the optimal path and emissions value.
 - **Time Spent:** ~5 hours
 
 ## 🗓️ Day 19: August 16, 2026
@@ -291,7 +291,7 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 ⏱️ Time Spent: ~4 hours
 
 ### 🗓️ Day 21: August 25, 2026  
-**Topic:** Building AI — Ch 2, Sec 2: The Bayes Rule  
+**Topic:** Building AI — Ch 2, Sec 2: Bayes Rule  
 💡 **Key Concepts**  
 * **Bayes' Rule Foundations:** Updating posterior probabilities $P(A \mid B)$ based on likelihood $P(B \mid A)$, prior $P(A)$, and marginal evidence $P(B)$.  
 * **Law of Total Probability:** Calculating total evidence $P(\text{8-digits})$ by combining likelihoods across complementary events (bot vs. human).  
@@ -310,7 +310,7 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 * `exercise_10.py` — Complete implementation of Naive Bayes classifier in Python to infer die selection based on outcome sequences.  
 ⏱️ **Time Spent:** ~3 hours
 
-# 🗓️ Day 23: September 20, 2026
+### 🗓️ Day 23: September 20, 2026
 **Topic:** Building AI — Ch 3, Sec 1: Machine Learning & Linear Regression  
 
 💡 **Key Concepts**  
@@ -327,5 +327,21 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 * `exercise_14.py` — Splitting train/test datasets using array slicing (`[:, :-1]` for features, `[:, -1]` for target) to estimate coefficients and predict unseen cabin prices.  
 
 ⏱️ **Time Spent:** ~4 hours
+
+
+### 🗓️ Day 24: September 28, 2026  
+**Topic:** Building AI — Ch 3, Sec 2: The Nearest Neighbor Method (k-NN)  
+
+💡 **Key Concepts**  
+* **Nearest Neighbor Foundations:** Understanding instance-based learning, distance metrics, and the Euclidean distance formula ($D = \sqrt{\sum (x_i - y_i)^2}$) for non-geographical vector spaces.  
+* **Feature Scaling & Limitations:** Recognizing how differing feature scales (e.g., cabin size vs. distance to neighbors) distort Euclidean distance calculations, and the importance of data normalization (e.g., using `MinMaxScaler`).  
+* **k-NN Classification:** Transitioning from 1-NN to $k$-Nearest Neighbors ($k=3$) to mitigate noise and outliers by considering multiple nearby training instances.  
+* **Majority Voting & NumPy Tricks:** Implementing $k$-NN classification using `np.argsort` to sort distances in ascending order, extracting top-$k$ neighbor indices, and applying majority rules via `np.round(np.mean())`.  
+
+📁 **Files & Exercises (`1.2-Building-AI/chapter_3/`)**  
+* `exercise_15.py` — Implementation of basic vector distance calculator and 1-NN nearest neighbor search to find the most similar training instance.  
+* `exercise_16.py` — Implementation of $k$-NN ($k=3$) classification using `np.argsort` and majority voting to predict binary class labels (`y_predict`) for test data.  
+
+⏱️ **Time Spent:** ~3.5 hours
 
 ---
