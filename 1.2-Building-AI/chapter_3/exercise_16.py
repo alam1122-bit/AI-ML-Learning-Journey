@@ -100,7 +100,7 @@ you can get the majority where class by np.round(np.mean(y)) where y is the list
 This works by calculating the mean of the class labels and rounding it to zero in case it is less than 0.5 and one otherwise, 
 which is the same as the majority rule.
 '''
-# Level - Advance
+# Level - Advanced
 
 import numpy as np
 from sklearn.datasets import make_blobs
