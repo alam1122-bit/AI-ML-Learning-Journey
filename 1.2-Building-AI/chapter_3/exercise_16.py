@@ -1,5 +1,7 @@
 '''
-Exercise 16: Nearest neighbor
+Exercise 16: Nearest neighbor 
+
+level - Intermediate
 
 The program below uses the library sklearn to generate a random dataset. You don't need to be familiar with sklearn, we explain all the necessary information below. 
 Each sample in the dataset has two input features X and one binary output class y. We can think of a sample as a cabin, with its size and price as its input features, 
@@ -73,7 +75,12 @@ def main(X_train, X_test, y_train, y_test):
 main(X_train, X_test, y_train, y_test)
 
 
+
+
 '''
+
+Level - Advanced 
+
 In the basic nearest neighbor classifier, the only thing that matters is the class label of the nearest neighbor. 
 But the nearest neighbor may sometimes be noisy or otherwise misleading. 
 Therefore, it may be better to also consider the other nearby data points in addition to the nearest neighbor.
