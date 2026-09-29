@@ -31,7 +31,11 @@ def distance(row1, row2):
     # the sum of differences between the occurrences
     # of each word in row1 and row2.
     # you can assume that row1 and row2 are lists with equal length, containing numeric values.
-    return 0
+    total = 0
+    for x,y in zip(row1,row2):
+        total += abs(x-y)
+
+    return total
 
 def all_pairs(data):
     # this calls the distance function for all the two-row combinations in the data
