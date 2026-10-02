@@ -91,3 +91,20 @@ def main(text):
         print(tfidf)
 
 main(text)
+
+
+'''
+Level - Advanced
+
+Let's combine two tasks: finding the most similar pair of lines and the tf-idf representation.
+
+Write a program that uses the tf-idf vectors to find the most similar pair of lines in a given data set. You can test your solution with the example text below. 
+Note, however, that your solution will be tested on other data sets too, so make sure you don't make use of any special properties of the 
+example data (like there being four lines of text).
+
+This exercise requires a bit more work than average but you should be able to benefit from what you have done in the previous exercises.
+
+Hint: Exercise 17. Bag of Words as well as the other tiers of this exercise explain many relevant concepts in detail. If you're stuck, 
+we would highly recommend you to check them out. When specifying dtype for np.empty, use float instead of np.float.
+'''
+
