@@ -108,3 +108,60 @@ Hint: Exercise 17. Bag of Words as well as the other tiers of this exercise expl
 we would highly recommend you to check them out. When specifying dtype for np.empty, use float instead of np.float.
 '''
 
+import math
+import numpy as np
+text = '''Humpty Dumpty sat on a wall
+Humpty Dumpty had a great fall
+all the king's horses and all the king's men
+couldn't put Humpty together again'''
+
+def main(text):
+    # tasks your code should perform:
+
+    # 1. split the text into words, and get a list of unique words that appear in it
+    docs = [line.lower().split() for line in text.splitlines()]
+    # a short one-liner to separate the text into sentences (with words lower-cased to make words equal 
+    words = []
+    for doc in docs:
+        for word in doc:
+            words.append(word)
+    vocabulary = list(set(words))
+    # despite casing can be done with 
+    # docs = [line.lower().split() for line in text.split('\n')]
+    tf = {}
+    df = {}
+    # 2. go over each unique word and calculate its term frequency, and its document frequency
+    for word in vocabulary:
+        tf[word] = [doc.count(word) / len(doc) for doc in docs]     # word occurence / word in doc
+        df[word] = sum(word in doc for doc in docs)/len(docs) # word occurence in doc / total words in corpus
+
+    # 3. after you have your term frequencies and document frequencies, go over each line in the text and 
+    # calculate its TF-IDF representation, which will be a vector
+    tf_idf = []
+    for doc_index, doc in enumerate(docs):
+        doc_vector = []
+        for word in vocabulary:
+            tf_idf_value = tf[word][doc_index] * math.log(1 / df[word], 10)
+            doc_vector.append(tf_idf_value)
+        tf_idf.append(doc_vector)
+    # print(tf_idf)
+    # 4. after you have calculated the TF-IDF representations for each line in the text, you need to
+    # calculate the distances between each line to find which are the closest.
+    def distance(a,b):
+        total = 0
+        for x,y in zip(a,b):
+            total += abs(x-y)
+        return total
+
+
+    N = len(docs)
+    dist = np.empty((N, N), dtype=float)
+    for i in range(N):
+        for j in range(N):
+            if i==j:
+                dist[i][j] = np.inf
+            else:
+                dist[i][j] = distance(tf_idf[i], tf_idf[j])
+    print(np.unravel_index(np.argmin(dist), dist.shape))
+
+main(text)
