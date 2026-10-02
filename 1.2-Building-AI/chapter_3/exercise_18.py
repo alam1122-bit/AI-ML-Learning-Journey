@@ -53,11 +53,14 @@ import math
 def main(text):
     # split the text first into lines and then into lists of words
     docs = [line.split() for line in text.splitlines()]
+    # text.spitlines = [],[],[]
+    # line.split = [..,...,..,],[...],[...]
 
     N = len(docs)
-    print(docs)
+
     # create the vocabulary: the list of words that appear at least once
     vocabulary = list(set(text.split()))
+
 
     df = {}
     tf = {}
@@ -67,20 +70,24 @@ def main(text):
         # for example tf['he'][0] contains the term frequence of the word 'he' in the first
         # document
         tf[word] = [doc.count(word)/len(doc) for doc in docs]
+        # doc.count(word) count word appear in doc
+        # "he" is appear one time
+        # len of doc 5
+        # so 1/5 = 0.2 in first iteration
+        # now "he" for second doc then 3rd doc then comes second word and so on...
 
         # df: number of documents containing word w
         df[word] = sum([word in doc for doc in docs])/N
-
+        # print(f"df[{word}] = {df[word]}")
     # loop through documents to calculate the tf-idf values
     for doc_index, doc in enumerate(docs):
         tfidf = []
         for word in vocabulary:
             # ADD THE CORRECT FORMULA HERE. Remember to use the base 10 logarithm: math.log(x, 10)
-            tfidf.append(None) 
+            tfidf_value = tf[word][doc_index] * math.log(1/df[word],10)
+            
+            tfidf.append(tfidf_value) 
 
         print(tfidf)
 
 main(text)
-
-
-
