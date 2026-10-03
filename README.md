@@ -344,4 +344,20 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 ⏱️ **Time Spent:** ~3.5 hours
 
+
+### 🗓️ Day 25: October 03, 2026  
+**Topic:** Building AI — Ch 3, Sec 3: Working with Text (Bag of Words & TF-IDF)  
+
+💡 **Key Concepts**  
+* **Natural Language Processing (NLP) Foundations:** Converting raw text into numerical representations for machine learning models.  
+* **Bag-of-Words Model:** Representing text by counting word occurrences while ignoring word order and grammar, using Manhattan distance for similarity comparison.  
+* **Term Frequency-Inverse Document Frequency (TF-IDF):** Weighting words to penalize overly common words (like "the", "a") and highlight informative, rare terms using document frequency and logarithmic scaling (`math.log(1 / df, 10)`).  
+* **Document Similarity Matrix:** Generating multi-dimensional TF-IDF vectors for text corpora and calculating pairwise Euclidean distances to find the most similar lines.  
+
+📁 **Files & Exercises (`1.2-Building-AI/chapter_3/`)**  
+* `exercise_17.py` — Implementation of the Bag-of-Words model and Manhattan distance-based text similarity calculation for nursery rhyme lines.  
+* `exercise_18.py` — Implementation of TF-IDF vectorization combined with document distance matrix calculation to identify the closest matching text pairs.  
+
+⏱️ **Time Spent:** ~4.5 hours
+
 ---
