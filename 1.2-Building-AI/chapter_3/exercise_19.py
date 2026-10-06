@@ -50,3 +50,19 @@ print("training accuracy: %f" % train_acc)
 test_acc = knn.score(x_test, y_test)
 print("testing accuracy: %f" % test_acc)
 
+'''
+Which of the following values of k do you think was "best"?
+
+answer: k=42
+
+for K =42 or n_neighbors = 42 ; 
+
+training accuracy: 0.925373
+testing accuracy: 0.909091
+
+
+Why?
+
+answer: it gave the highest testing accuracy
+
+'''
