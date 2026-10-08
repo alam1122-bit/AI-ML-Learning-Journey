@@ -94,8 +94,46 @@ x, y = make_moons(
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.33, random_state=42)
 
 # Create a classifier and fit it to our data
-knn = KNeighborsClassifier(n_neighbors=133)
+knn = KNeighborsClassifier(n_neighbors=42)
 knn.fit(x_train, y_train)
 
-print("training accuracy: %f" % 0.0)
-print("testing accuracy: %f" % 0.0)
+train_acc = knn.score(x_train, y_train)
+print("training accuracy: %f" % train_acc)
+
+test_acc = knn.score(x_test, y_test)
+print("testing accuracy: %f" % test_acc)
+
+'''
+Output:
+    training accuracy: 0.925373
+    testing accuracy: 0.909091
+'''
+'''
+What would be a reasonable baseline accuracy your model should outperform in order for it to be considered useful?
+
+ans: 0.50
+
+There are two classes, and the data points are evenly split among them. Assigning every point to either class, or picking a class randomly would result in a 50% accuracy.
+There are two classes, and the data points are evenly split among them. Assigning every point to either class, or picking a class randomly would result in a 50% accuracy.
+
+Which of the following values of k do you think was "best"?
+
+ans: k=42
+
+Why?
+
+ans: it gave the highest testing accuracy
+
+
+Is it possible to have a higher test set accuracy than training set accuracy?
+
+ans: yes
+
+It is possible, and for many reasons. For example if you are doing a classification task like here, if your data sets have class imbalance it can easily lead to such a 
+scenario, or if your test set points in this example here would have been picked far away from the decision boundary then they would have been easier to 
+classify correctly than those near the border.
+
+'''
+
+
+
