@@ -360,4 +360,20 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 ⏱️ **Time Spent:** ~4.5 hours
 
+### 🗓️ Day 26: October 08, 2026  
+**Topic:** Building AI — Ch 3, Sec 4: Overfitting & Model Evaluation (Exercise 19)  
+
+💡 **Key Concepts**  
+- **Overfitting Definition:** Understanding the danger of a model being too confident in training data patterns, leading to high training accuracy but poor generalization on unseen test data.
+- **Extreme Overfitting Cases:** Examining scenarios like $k=1$ in k-NN and linear models where the number of predictors matches the sample size, resulting in zero training error.
+- **Training vs. Testing Accuracy:** Using scikit-learn's `knn.score(x_train, y_train)` and `knn.score(x_test, y_test)` to quantitatively evaluate model performance.
+- **Impact of $k$ Values:** Analyzing how small $k$ values cause overfitting, very large $k$ values cause underfitting, and finding a balanced intermediate $k$ for optimal test accuracy.
+- **Mitigation Strategies:** Introduction to train-test splits and cross-validation (e.g., leave-one-out cross-validation) to ensure robust model evaluation.
+
+📁 **Files & Exercises (`1.2-Building-AI/chapter_3/`)**  
+- `exercise_19.py` — Implementation of k-Nearest Neighbors classifier on synthetic `make_moons` data, configured to compute and output both training and testing accuracies across different $k$ parameters.
+
+⏱️ **Time Spent:** ~3.0 hours  
+🎉 **Milestone:** Completed Chapter 3 of the "Building AI" course (Linear Regression, Nearest Neighbor, NLP/Text Processing, and Overfitting)!
+
 ---
