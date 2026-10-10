@@ -21,7 +21,7 @@ If your friend has spent 70 hours learning Python, what are her chances of getti
      |                     . . 
    0%| . . . . . . . . . .                                                (Bottom Data Points at 0%)
      +-----------------------------------------------------------------------------------------
-    10     20    30    40    50    60  70    80    90   100
+    10     20    30    40    50    60   70    80    90   100
                                 Hours studied Python
 
   ans: at least 80%
