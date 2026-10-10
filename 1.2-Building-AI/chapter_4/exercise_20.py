@@ -9,19 +9,19 @@ If your friend has spent 70 hours learning Python, what are her chances of getti
 
 **2. Visual ASCII / Dot Representation of the Sigmoid Curve:**
 
-100% |                                               . . . . . . . (Top Data Points at 100%)
-     |                                           . .
- 80% |                                       . . 
-     |                                   . . 
- 60% |                               . . 
-     |                           . .  (50% Probability Threshold around ~60-65 hours)
- 40% |                       . . 
-     |                   . . 
- 20% |               . . 
-     |           . . 
-   0%| . . . . .                                                     (Bottom Data Points at 0%)
+100% |                                     . . . . . . . . . . (Top Data Points at 100%)
+     |                                  . .
+ 80% |                               . . 
+     |                              . . 
+ 60% |                             . . 
+     |                           . .  
+ 40% |                          . . 
+     |                         . . 
+ 20% |                       . . 
+     |                     . . 
+   0%| . . . . . . . . . .                                                (Bottom Data Points at 0%)
      +-----------------------------------------------------------------------------------------
-    10      20      30      40      50      60      70      80      90     100
+    10     20    30    40    50    60  70    80    90   100
                                 Hours studied Python
 
   ans: at least 80%
