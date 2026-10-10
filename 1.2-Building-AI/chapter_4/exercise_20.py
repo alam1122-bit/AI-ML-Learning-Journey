@@ -3,7 +3,7 @@ Level - Beginner
 Here we have a (fictional) graph of data about hours spent learning Python vs the chance of getting a raise within a year. 
 If your friend has spent 70 hours learning Python, what are her chances of getting a raise within a year?
 
-**1. Axes Description (অক্ষসমূহ):**
+**1. Axes Description:**
 * Y-Axis (Vertical): Probability of getting a raise (0% to 100%)
 * X-Axis (Horizontal): Hours studied Python (10 to 100 hours)
 
