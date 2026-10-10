@@ -27,3 +27,36 @@ If your friend has spent 70 hours learning Python, what are her chances of getti
   ans: at least 80%
 
 '''
+
+'''
+Level - Intermediate 
+
+Which of these implement a sigmoid function correctly? Select all of the correct implementations from below (more than one may apply).
+
+Option A
+def sigmoid(x):
+	return 1 / 1+math.exp(-x)
+
+Option B
+def sigmoid(x):
+	return 1 / (1 + math.exp(x))
+
+Option C
+def sigmoid(x):
+	return 1 / (1 + math.exp(-x))
+
+Option D
+def sigmoid(x):
+	x2 = -1.0*x
+	a = math.exp(x2)
+	nominator = 1
+	denominator = 1 + a
+	return nominator / denominator
+
+Option E
+def sigmoid(x):
+	return 1 / (1 + 2.71**(-x))
+
+ans: Option C anf Option D
+
+'''
