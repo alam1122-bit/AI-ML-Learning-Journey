@@ -376,4 +376,19 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 ⏱️ **Time Spent:** ~3.0 hours  
 🎉 **Milestone:** Completed Chapter 3 of the "Building AI" course (Linear Regression, Nearest Neighbor, NLP/Text Processing, and Overfitting)!
 
+
+### 🗓️ Day 27: October 11, 2026  
+**Topic:** Building AI — Ch 4, Sec 1: Neural Networks & Logistic Regression (Exercise 20)  
+
+💡 **Key Concepts**  
+- **Introduction to Neural Networks:** Transitioning from traditional regression modeling to neural networks by exploring logistic regression as a foundational bridge.
+- **Sigmoid Activation Function:** Understanding the mathematical formula $s(z) = 1 / (1 + \exp(-z))$ which converts any real-valued input into a probability range between $0$ and $1$.
+- **Model Linearity & Limitations:** Analyzing the constraints of linear models (linear and logistic regression) when dealing with non-linear real-world patterns (such as age-based product targeting).
+- **K-Ruoka Case Study & Industry Insights:** Exploring practical AI implementations in retail (Kesko & Reaktor) using regression models and matrix factorization, highlighting the importance of rapid iteration, quick prototyping, and translating business needs into machine-understandable problems.
+
+📁 **Files & Exercises (`1.2-Building-AI/chapter_4/`)**  
+- `exercise_20.py` — Implementation of logistic regression output calculations using a linear formula combined with the sigmoid activation function across multiple alternative coefficient sets.
+
+⏱️ **Time Spent:** ~2.5 hours
+
 ---
