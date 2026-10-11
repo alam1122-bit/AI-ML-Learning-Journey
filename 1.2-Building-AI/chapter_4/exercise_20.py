@@ -60,3 +60,48 @@ def sigmoid(x):
 ans: Option C anf Option D
 
 '''
+'''
+Level - Advanced
+
+You are given a set of three input values and you also have multiple alternative sets of three coefficients. 
+Calculate the predicted output value using the linear formula combined with the logistic activation function.
+
+Do this with all the alternative sets of coefficients. Which of the coefficient sets yields the highest sigmoid output?
+'''
+
+import math
+import numpy as np
+
+x = np.array([4, 3, 0])
+c1 = np.array([-.5, .1, .08])
+c2 = np.array([-.2, .2, .31])
+c3 = np.array([.5, -.1, 2.53])
+
+def sigmoid(z):
+    # add your implementation of the sigmoid function here
+    return 1/(1 + math.exp(-z))
+
+z1 = np.dot(x,c1)
+z2 = np.dot(x,c2)
+z3 = np.dot(x,c3)
+# calculate the output of the sigmoid for x with all three coefficients
+s1 = sigmoid(z1)
+s2 = sigmoid(z2)
+s3 = sigmoid(z3)
+
+print(f"c1 sigmoid: {s1}")
+print(f"c2 sigmoid: {s2}")
+print(f"c3 sigmoid: {s3}")
+
+'''
+Output
+c1 sigmoid: 0.15446526508353473
+c2 sigmoid: 0.45016600268752216
+c3 sigmoid: 0.8455347349164652
+'''
+
+'''
+Select the correct answer
+
+ans: C3
+'''
