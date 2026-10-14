@@ -391,4 +391,20 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 ⏱️ **Time Spent:** ~2.5 hours
 
+### 🗓️ Day 28: October 15, 2026  
+**Topic:** Building AI — Ch 4, Sec 2: From logistic regression to neural networks 
+
+💡 **Key Concepts**  
+- **Neural Network Architecture:** Scaling from simple logistic regression to interconnected multi-layer structures, comprising an input layer ($5$ feature nodes), two hidden layers ($2$ nodes each), and an output layer ($1$ node) along with bias terms.
+- **Terminology & Mechanics:** Mapping coefficients to **weights** ($w$), intercepts to **biases** ($b$), and non-linearities to **activation functions** (ReLU for hidden layers, linear/identity for the output layer).
+- **Forward Pass:** Executing layer-by-layer matrix dot products ($\text{dot}(\text{input}, w) + b$) followed by activation functions to map input features directly to cabin price predictions.
+- **Overfitting & Cross-Validation:** Understanding how large networks with excess parameters can memorize data when training samples are small, and using cross-validation to ensure reliable model generalization.
+- **Optimization & Real-World Applications:** Exploring non-linear optimization landscapes, local optima, and analyzing the *Zen Robotics* case study on automated waste sorting using machine learning and machine vision.
+
+📁 **Files & Exercises (`1.2-Building-AI/chapter_4/`)**  
+- `exercise_21.py` — Complete implementation of a multi-layer neural network forward pass with weight matrices (`w0`, `w1`, `w2`), biases (`b0`, `b1`, `b2`), ReLU/Linear activations, and predicting cabin price for test vector `[82, 2, 65, 3, 516]`.
+
+⏱️ **Time Spent:** ~3.0 hours
+
+
 ---
