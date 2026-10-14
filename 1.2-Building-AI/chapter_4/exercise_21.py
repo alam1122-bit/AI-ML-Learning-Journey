@@ -111,3 +111,18 @@ Output
 [184784.0147384]
 [233890.02420755]
 '''
+
+'''
+What price does the neural network predict for the cabin in question?
+ans: roughly 230,000 euros
+
+What type of a machine learning problem is this?
+ans: supervised learning
+
+How can we make sure we are not overfitting the neural network to the data?
+ans: use cross-validation
+
+'''
+
+
+
