@@ -101,7 +101,7 @@ for item in x_test:
     h2_in = np.dot(h1_out, w1) + b1 # the output of the previous layer is the input for this layer. it is missing the bias term, fix it!
     h2_out = hidden_activation(h2_in)
     
-    out_in = np.dot(h2_out, w2)
+    out_in = np.dot(h2_out, w2) + b2
     out = output_activation(out_in)
     print(out)
 
