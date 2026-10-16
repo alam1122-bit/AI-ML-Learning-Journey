@@ -417,4 +417,5 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 - **Transformers & Attention Mechanisms:** Eliminating sequential constraints via attention mechanisms to parallelize text modeling, underpinning modern Large Language Models (LLMs) like OpenAI's GPT series.
 
 ⏱️ **Time Spent:** ~2.5 hours
+
 ---
