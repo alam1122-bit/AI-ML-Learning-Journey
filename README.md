@@ -406,5 +406,15 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 ⏱️ **Time Spent:** ~3.0 hours
 
+### 🗓️ Day 29: October 16, 2026  
+**Topic:** Building AI — Ch 4, Sec 3: Deep Learning (CNNs, Case Study, RNNs & Transformers)  
 
+💡 **Key Concepts**  
+- **Deep Learning Revolution:** Exploration of modern frameworks (TensorFlow, PyTorch, fast.ai) driving state-of-the-art advances across Natural Language Processing (NLP) and Computer Vision.
+- **Convolutional Neural Networks (CNNs):** Efficient image feature extraction via **parameter sharing** with smaller spatial filters/kernels, overcoming pixel-parameter explosion in dense layers.
+- **School Mapping:** Practical deployment of CNN architectures (Xception, MobileNetV2) trained on high-resolution satellite imagery across millions of frames to map unmapped infrastructure.
+- **Recurrent Neural Networks (RNNs):** Sequential processing using feedback loops to maintain contextual memory (pronoun resolution, long-term text dependencies).
+- **Transformers & Attention Mechanisms:** Eliminating sequential constraints via attention mechanisms to parallelize text modeling, underpinning modern Large Language Models (LLMs) like OpenAI's GPT series.
+
+⏱️ **Time Spent:** ~2.5 hours
 ---
