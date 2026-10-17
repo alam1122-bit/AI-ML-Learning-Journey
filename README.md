@@ -2,8 +2,8 @@
 This repository tracks my end-to-end learning progress, concepts, and source code as I transition from an Electrical and Electronic Engineering (EEE) background into AI/ML research.
 
 ## 🗺️ Roadmap Overview
-✅ **Course 1.1: Elements of AI** (University of Helsinki) - *Completed 🎉* </br>
-✅ **Course 1.2: Building AI** (University of Helsinki) — *Completed 🎉*
+- [x] **Course 1.1: Elements of AI** (University of Helsinki) - *Completed 🎉*
+- [x] **Course 1.2: Building AI** (University of Helsinki) — *Completed 🎉*
 - [ ] **Course 2: Intro to Deep Learning** (Kaggle Learn) - *Planned ⏳*
 - [ ] **Course 3: PyTorch for Deep Learning Bootcamp** (freeCodeCamp) - *Planned ⏳*
 - [ ] **Course 4: Deep Reinforcement Learning Course** (Hugging Face) - *Planned ⏳*
