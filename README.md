@@ -4,7 +4,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 ## 🗺️ Roadmap Overview
 - [x] **Course 1.1: Elements of AI** (University of Helsinki) - *Completed 🎉*
 - [x] **Course 1.2: Building AI** (University of Helsinki) — *Completed 🎉*
-- [ ] **Course 2: Intro to Deep Learning** (Kaggle Learn) - *Planned ⏳*
+- [ ] **Course 2: Intro to Deep Learning** (Kaggle Learn) - *In Progress 🔄*
 - [ ] **Course 3: PyTorch for Deep Learning Bootcamp** (freeCodeCamp) - *Planned ⏳*
 - [ ] **Course 4: Deep Reinforcement Learning Course** (Hugging Face) - *Planned ⏳*
 
