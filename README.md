@@ -235,6 +235,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 <summary><b>📜 Click here to expand completed daily logs (Day 17 to Day 30)</b></summary>
 
 <br>
+
 ### 🗓️ Day 17: July 30, 2026
 
 - **Topic Covered:** Building AI – Getting Started with AI (Section 1: Why AI Matters & Exercise 0: Introduction to Exercises)
@@ -427,7 +428,7 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 💡 **Key Concepts**  
 - **Course Completion:** Successfully finished the *Building AI* course journey by the University of Helsinki and Reaktor Innovations, covering foundational algorithms up to modern deep learning.
-- **Real-World AI Application:** Conceptualized and formulated the final project **"AI-Powered Multi-Layer Groundwater & Aquifer Mapping in Bangladesh"**, focusing on solving practical hydro-geological water security challenges in the Kushiara River basin (Moulvibazar).
+- **Real-World AI Application:** Conceptualized and formulated the final project **"AI-Powered Multi-Layer Groundwater & Aquifer Mapping in Bangladesh"**, focusing on solving practical hydrogeological water security challenges in the Kushiara River basin (Moulvibazar).
 - **Open-Source & GitHub Integration:** Structured the project documentation as a professional Markdown (`README.md`) file, establishing open-source practices, licensing awareness, and peer-review workflows within the AI community.
 
 📁 **Files & Repositories**  
@@ -436,4 +437,5 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 ⏱️ **Time Spent:** ~2.5 hours
 
 </details>
+
 ---
