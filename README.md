@@ -3,7 +3,7 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 ## 🗺️ Roadmap Overview
 - [ ] **Course 1.1: Elements of AI** (University of Helsinki) - *Completed 🎉*
-- [ ] **Course 1.2: Building AI** (University of Helsinki) — *In Progress 🔄*
+- [ ] **Course 1.2: Building AI** (University of Helsinki) — *Completed 🎉*
 - [ ] **Course 2: Intro to Deep Learning** (Kaggle Learn) - *Planned ⏳*
 - [ ] **Course 3: PyTorch for Deep Learning Bootcamp** (freeCodeCamp) - *Planned ⏳*
 - [ ] **Course 4: Deep Reinforcement Learning Course** (Hugging Face) - *Planned ⏳*
@@ -231,6 +231,10 @@ This repository tracks my end-to-end learning progress, concepts, and source cod
 
 ## 📚 Course 1.2: Building AI (University of Helsinki)
 
+<details>
+<summary><b>📜 Click here to expand completed daily logs (Day 17 to Day 30)</b></summary>
+
+<br>
 ### 🗓️ Day 17: July 30, 2026
 
 - **Topic Covered:** Building AI – Getting Started with AI (Section 1: Why AI Matters & Exercise 0: Introduction to Exercises)
@@ -418,4 +422,18 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 ⏱️ **Time Spent:** ~2.5 hours
 
+### 🗓️ Day 30: October 17, 2026  
+**Topic:** Building AI — Chapter 5: Conclusion & Final Project Submission  
+
+💡 **Key Concepts**  
+- **Course Completion:** Successfully finished the *Building AI* course journey by the University of Helsinki and Reaktor Innovations, covering foundational algorithms up to modern deep learning.
+- **Real-World AI Application:** Conceptualized and formulated the final project **"AI-Powered Multi-Layer Groundwater & Aquifer Mapping in Bangladesh"**, focusing on solving practical hydro-geological water security challenges in the Kushiara River basin (Moulvibazar).
+- **Open-Source & GitHub Integration:** Structured the project documentation as a professional Markdown (`README.md`) file, establishing open-source practices, licensing awareness, and peer-review workflows within the AI community.
+
+📁 **Files & Repositories**  
+- [AI-Groundwater-Aquifer-Mapping-Bangladesh](https://github.com/alam1122-bit/AI-Groundwater-Aquifer-Mapping-Bangladesh) — Published final project repository on GitHub containing project summary, background, data sources, AI methods, challenges, and future scope.
+
+⏱️ **Time Spent:** ~2.5 hours
+
+</details>
 ---
