@@ -438,4 +438,19 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 </details>
 
+## 📚 Course 2: Intro to Deep Learning (Kaggle Learn)
+
+### 🗓️ Day 31: October 18, 2026  
+**Topic:** Kaggle Introduction to Deep Learning — A Single Neuron
+
+💡 **Key Concepts**  
+- **Deep Learning Foundations:** Explored how deep learning models leverage deep stacks of computations to disentangle complex, hierarchical patterns from real-world data.
+- **The Linear Unit (Single Neuron):** Understood the fundamental building block of a neural network ($y = wx + b$), where inputs ($x$) are multiplied by weights ($w$) and combined with a bias ($b$)[cite: 1].
+- **Geometric Interpretation:** Analyzed how a single input creates a line, two inputs fit a plane, and multiple inputs form a **hyperplane** in multi-dimensional space[cite: 1].
+- **Keras & TensorFlow:** Learned how to define a linear regression model using `keras.Sequential` and `layers.Dense(units=1, input_shape=[3])` to process tabular features (e.g., predicting calories from sugars, fiber, and protein).
+
+⏱️ **Time Spent:** ~2.0 hours
+
+
+
 ---
