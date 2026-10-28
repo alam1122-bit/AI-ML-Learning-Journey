@@ -451,6 +451,14 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 
 ⏱️ **Time Spent:** ~2.0 hours
 
+### 🗓️ Day 32: October 28, 2026  
+**Topic:** Kaggle Introduction to Deep Learning — Deep Neural Networks, Layers, and Activation Functions  
 
+💡 **Key Concepts**  
+- **Modularity & Dense Layers:** Understood how neural networks organize neurons into layers, where collecting linear units with a common set of inputs forms a **dense layer**. Stacking these layers performs a deep stack of transformations to capture complex real-world patterns.
+- **The Need for Non-Linearity:** Learned that multiple linear layers stacked together without any intervention act mathematically just like a single layer. To model complex, curved relationships instead of simple lines and planes, **activation functions** are essential.
+- **The ReLU Activation Function:** Explored the rectifier function ($\max(0, x)$). Applying ReLU to a linear unit creates a **Rectified Linear Unit**, which introduces a "bend" in the data to break linearity.
+- **Hidden & Output Layers:** Examined a fully-connected network architecture featuring hidden layers (with `activation='relu'`) and a final linear output layer (no activation function) suitable for regression tasks.
+- **Keras Sequential Model with Multiple Layers:** Learned how to stack multiple dense layers with `input_shape` and custom units inside `keras.Sequential`:
 
 ---
