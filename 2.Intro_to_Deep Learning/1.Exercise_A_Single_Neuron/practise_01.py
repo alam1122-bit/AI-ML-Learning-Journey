@@ -1,3 +1,5 @@
+#Exercise: Deep Neural Networks 2/6
+
 from tensorflow import keras
 from tensorflow.keras import layers
 
@@ -8,3 +10,10 @@ model = keras.Sequential([
     # the linear output layer 
     layers.Dense(units=1),
 ])
+
+# YOUR CODE HERE
+input_shape = [8]
+
+# Check your answer
+q_1.check()
+
