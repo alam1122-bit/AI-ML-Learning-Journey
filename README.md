@@ -459,6 +459,25 @@ Topic: Building AI — Ch 2, Sec 1: Probability Fundamentals
 - **The Need for Non-Linearity:** Learned that multiple linear layers stacked together without any intervention act mathematically just like a single layer. To model complex, curved relationships instead of simple lines and planes, **activation functions** are essential.
 - **The ReLU Activation Function:** Explored the rectifier function ($\max(0, x)$). Applying ReLU to a linear unit creates a **Rectified Linear Unit**, which introduces a "bend" in the data to break linearity.
 - **Hidden & Output Layers:** Examined a fully-connected network architecture featuring hidden layers (with `activation='relu'`) and a final linear output layer (no activation function) suitable for regression tasks.
-- **Keras Sequential Model with Multiple Layers:** Learned how to stack multiple dense layers with `input_shape` and custom units inside `keras.Sequential`:
+- **Keras Sequential Model with Multiple Layers:** Learned how to stack multiple dense layers with `input_shape` and custom units inside `keras.Sequential`
+
+### 🗓️ Day 33: November 2, 2026
+**Topic:** Kaggle Introduction to Deep Learning — Stochastic Gradient Descent (SGD)
+
+💡 **Key Concepts**
+
+- **Loss Function (MAE):** Learned how to measure the difference between a model's predictions and actual target values.
+- **Optimizer (Adam):** Understood how an optimizer updates neural network weights to minimize the loss.
+- **Mini-batch & Batch Size:** Explored how training data is divided into smaller batches for model training.
+- **Epoch & Iteration:** Learned that an epoch represents one complete pass through the training dataset, while each mini-batch produces a training update.
+- **Learning Rate:** Understood how the learning rate controls the size of weight updates during training.
+- **SGD Experiment:** Experimented with different batch sizes (`2`, `32`, and `128`) while keeping the learning rate constant to observe their effects on training updates.
+
+💡 **Key Takeaway**
+
+Understood how batch size and learning rate influence the training process and stability of neural networks.
+
+**Note:** The initial model training used the Adam optimizer, while the SGD animation experiment demonstrated the behavior of Stochastic Gradient Descent.
+
 
 ---
